@@ -58,14 +58,9 @@
     font-size:16px;
 }
 
-.box-link a:visited {
-    color:#fafafa;
+.box-link:link, .box-link:active, .box-link:visited {
     text-decoration:none;
-}
-
-.box-link a:active {
     color:#fafafa;
-    text-decoration:none;
 }
 
 .box-title {
