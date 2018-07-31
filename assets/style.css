@@ -58,11 +58,15 @@
     font-size:16px;
 }
 
-.box-link:visited, .box-link:active {
+.box-link a:visited {
     color:#fafafa;
     text-decoration:none;
 }
 
+.box-link a:active {
+    color:#fafafa;
+    text-decoration:none;
+}
 
 .box-title {
     font-family: 'Righteous', cursive;
