@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    
+    <title>Home</title>
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle mobile-dropdown" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="/assets/images/mlogo.png" class="hvr-grow" width="200" height="100" alt="logo"/></a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active menu-item"><a href="index.html">Home</a> </li>
+                    <li class="menu-item"><a href="news.html">News</a></li>
+                    <li class="menu-item"><a href="music.html">Music</a></li>
+                    <li class="menu-item"><a href="about.html">About</a></li>
+                    <li class="menu-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+</header>
+
+<section class="container-fluid">
+    <div class="section-background"><!--Background starts-->
+        <div class="container">
+            <div class="row">
+                
+                <!--What's New-->
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="info">
+                            <h4 class="box-title text-center">What's New?</h4>
+                            <p class="box-sentence-a">The Monkees 50th Anniversary Album (2016)</p>
+                            <img src="/assets/images/themonkees50.jpg" alt="The Monkees 50" width="200" height="200" class="img-fluid index-img"/>
+                            <br>
+                            <a href="https://www.amazon.co.uk/Monkees-50/dp/B01ICFQH8I/ref=sr_1_1?ie=UTF8&qid=1531401136&sr=8-1&keywords=the+monkees+50" target="_blank" class="box-link">Buy Now on Amazon</a>
+                        </div>
+                    </div>
+                </div>
+               <!--Listen Now--> 
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="info">
+                            <h4 class="box-title text-center">Listen Now</h4>
+                            <p class="box-sentence-b">Top tracks available to listen to right here, including <em>Daydream Believer</em>.</p>
+                            <img src="/assets/images/goodtimes.jpg" alt="Good Times" width="200" height="200" class="img-fluid index-img"/>
+                            <br>
+                            <a href="music.html" class="box-link">Listen Here</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Bookings-->
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="info">
+                            <h4 class="box-title text-center">Bookings</h4>
+                            <p class="box-sentence-c">Want to hire us for an event?</p>
+                            <img src="/assets/images/album2.jpg" alt="The Very Best Of The Monkees" width="200" height="200" class="img-fluid index-img"/>
+                            <br>
+                            <a href="contact.html" class="box-link">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="box-form">
+                        <div class="subscription">
+                            <!--Subscription-->
+                            <form role="form" action="/action_page.php" method="post">
+                                
+                                <h3 class="form-title">Newsletter</h3>
+                                <p>Subscribe here to receive our weekly newsletter via email</p>
+                                <input type="text" id="name" placeholder="Name" class="form-control" required/>
+                                <br>
+                                <input type="email" id="email" placeholder="Email address" class="form-control" required/>
+                                <br>
+                                <button class="btn btn-default btn-md subscribe-btn" type="submit">Subscribe</button>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="box-video">
+                        <h3 class="video-title">Watch "Daydream Believer" Music Video</h3>
+                        <video width="350" controls controlsList="nodownload">
+                            <source src="/assets/video/TheMonkees.mp4" type="video/mp4">
+                            Your browser does not support this video format.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--Background ends-->    
+</section>
+
+<footer class="container-fluid">
+    <div id="footer-details" class="row">
+        <div class="col-sm-4 text-center">
+            <h5 class="uppercase general-sub-footer">Quick Links</h5>
+            <ul class="footer-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-sm-4 text-center">
+            <h5 class="uppercase general-sub-footer">Spotify</h5>
+            <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:320EPCSEezHt1rtbfwH6Ck&size=detail&theme=dark&show-count=0" width="168" height="120" class="spotify"></iframe>
+        </div>
+        
+        <div class="col-sm-4 text-center">
+            <h5 class="uppercase general-sub-footer">Connect</h5>
+            <ul class="social-links">
+                <li><a target="_blank" href="#"><i class="fa fa-facebook hvr-grow"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fa fa-twitter hvr-grow"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fa fa-youtube hvr-grow"></i></a></li>
+            </ul>
+        </div>   
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-center copyright-box">
+            <hr/>
+            <p id="copyright">Copyright 2018 The Monkees. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

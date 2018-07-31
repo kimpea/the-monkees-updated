@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    
+    <title>News</title>
+</head>
+
+
+<body>
+
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle mobile-dropdown" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="/assets/images/mlogo.png" class="hvr-grow" width="200" height="100" alt="logo"/></a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="menu-item"><a href="index.html">Home</a> </li>
+                    <li class="active menu-item"><a href="news.html">News</a></li>
+                    <li class="menu-item"><a href="music.html">Music</a></li>
+                    <li class="menu-item"><a href="about.html">About</a></li>
+                    <li class="menu-item"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+</header>
+
+<section class="container-fluid">
+    <div class="section-background"><!--Background starts-->
+        <div class="container news-container">
+            <div class="row">
+                
+                <!--Past Concerts Section-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="box">
+                        <div class="info">
+                            <h4 class="box-title-past text-center">Past Concerts</h4>
+                            <br>
+                            <ul class="event-list text-center">
+                                <li class="event-date">Monday 25th June 2018</li>
+                                <li>The Monkees</li>
+                                <li><a href="#" target="_blank">Count Basie Center for the Arts</a>, Red Bank, NJ, US</li>
+                                <br>
+                                <li class="event-date">Saturday 23rd June 2018</li>
+                                <li>The Monkees</li>
+                                <li><a href="#" target="_blank">Paramount Theatre</a>, Huntington, NY, US</li>
+                                <br>
+                                <li class="event-date">Friday 22nd June 2018</li>
+                                <li>The Monkees</li>
+                                <li><a href="#" target="_blank">Beacon Theatre</a>, New York, NY, US</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--Image-->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="box-img">
+                        <img src="/assets/images/newsimg.jpg" alt="News Image" width="495" height="345" class="img-fluid news-img">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!--Subscription Form-->
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                    <div class="box-form">
+                        <div class="subscription">
+                            <form role="form" action="/action_page.php" method="post">
+                                
+                                <h3 class="form-title">Newsletter</h3>
+                                <p>Subscribe here to receive our weekly newsletter via email</p>
+                                <input type="text" id="name" placeholder="Name" class="form-control" required/>
+                                <br>
+                                <input type="email" id="email" placeholder="Email address" class="form-control" required/>
+                                <br>
+                                <button class="btn btn-default btn-md subscribe-btn" type="submit">Subscribe</button>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--New upcoming dates-->
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                    <div class="box-form text-center"> 
+                        <h3 class="box-title-upcoming">Upcoming Dates</h3>
+                        <p class="new-dates">New dates for Michael Nesmith and the First National Band Redux - on sale now!</p>
+                        <ul class="event-list text-center">
+                            <li class="event-new">7/9/18 - <a href="https://www.prekindle.com/event/12225-michael-nesmith-houston" target="_blank">The Heights Theatre</a>, Houston, TX</li>
+                            <li class="event-new">8/9/18 - <a href="https://tickets.austintheatre.org/single/EventDetail.aspx?p=4168" target="_blank">The Paramount Theatre</a>, Austin, TX</li>
+                            <li class="event-new">9/9/18 - <a href="https://www.prekindle.com/event/33369-michael-nesmith-dallas" target="_blank">The Kessler Theatre</a>, Dallas, TX</li>
+                            <li class="event-new">14/9/18 - <a href="http://www.royaloakmusictheatre.com/events/detail/352548" target="_blank">Royal Oak Music Theatre</a>, Royal Oak, MI</li>
+                            <li class="event-new">17/9/18 - <a href="https://www1.ticketmaster.com/event/150054B8F01C4DF7?brand=birchmere&camefrom=cfc_birchmere_emailblast" target="_blank">The Birchmere</a>, Alexandria, VA</li>
+                            <li class="event-new">19/9/18 - <a href="https://www1.ticketmaster.com/michael-nesmith-somerville-massachusetts-09-19-2018/event/010054BF19C1A8EC?artistid=735735&majorcatid=10001&minorcatid=1" target="_blank">The Somerville Theatre</a>, Somerville, MA</li>
+                            <li class="event-new">22/9/18 - <a href="https://thecolonialtheatre.com/programs/michael-nesmith-2018/" target="_blank">The Colonial Theatre</a>, Pheonixville, PA</li>
+                            <li class="event-new">23/9/18 - <a href="https://tickets.ridgefieldplayhouse.org/eventperformances.asp?evt=1394" target="_blank">The Ridgefield Playhouse</a>, Ridgefield, CA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--Background ends-->    
+</section>
+
+<footer class="container-fluid">
+    <div id="footer-details" class="row">
+        <div class="col-sm-4 text-center">
+            <h5 class="uppercase general-sub-footer">Quick Links</h5>
+            <ul class="footer-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-sm-4 text-center">
+            <h5 class="uppercase general-sub-footer">Spotify</h5>
+            <iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:320EPCSEezHt1rtbfwH6Ck&size=detail&theme=dark&show-count=0" width="168" height="120" class="spotify"></iframe>
+        </div>
+        
+        <div class="col-sm-4 text-center">
+            <h5 class="uppercase general-sub-footer">Connect</h5>
+            <ul class="social-links">
+                <li><a target="_blank" href="#"><i class="fa fa-facebook hvr-grow"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fa fa-twitter hvr-grow"></i></a></li>
+                <li><a target="_blank" href="#"><i class="fa fa-youtube hvr-grow"></i></a></li>
+            </ul>
+        </div>   
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-center copyright-box">
+            <hr/>
+            <p id="copyright">Copyright 2018 The Monkees. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
