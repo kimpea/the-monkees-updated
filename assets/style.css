@@ -287,12 +287,12 @@ audio {
     height:50px;
 }
 
-#imageaudio {
+.imageaudio {
     list-style-type:none;
     margin-left:-35px;
 }
 
-#imageaudio li {
+.imageaudio li {
     padding:10px;
 }
 
