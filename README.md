@@ -1,4 +1,6 @@
-READ ME
+https://kimpea.github.io/
+
+FIRST MILESTONE PROJECT
 
 Author: Kimberley Pearton
 Date: 31/07/2018
