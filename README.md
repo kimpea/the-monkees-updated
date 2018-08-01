@@ -50,19 +50,29 @@ Skeleton - Header contains navigational links to 'Home', 'News', 'Music', 'About
     
 Surface - Bootstrap 3 is being used to make sure the website remains responsive across all device screen sizes. Media queries have been used to fix minor issues with main content in <section> on each page. I have decided to maintain a minimalistic yet classic style to the website to enhance the theme of a 1960s rock band. All content is visually easy to access according to testers of different age groups. 
 
-Fixes:
-    - Fixed box sizing for different device screen sizes
-    - Removed gallery
-    - Fixed image responsiveness with img-fluid
-    - Amended media queries in style.css for better understanding
-    - Fixed footer responsiveness
+Fixes have been documented through Git commits, however, throughout the project I mainly encountered general issues with making my website responsive on most popular device screen sizes.
+
+WIREFRAME/MOCKUPS:
+I did start using Pencil to help me visualise how I wanted my website to look, however, I chose to plan the layout on pen and paper as this was quicker and easier for me to write down notes and add in new ideas.
+
+BOOTSTRAP/CODE SAMPLES:
+Throughout the project, I had to carry out research on web layouts that I wanted to implement into my website, but did not know how to. With the help of Bootstrap 3 and Bootsnipp, I was able to do this. For example, I researched the code for a header and footer on Bootsnipp that I felt would be suitable for my website, and I learned how this code worked whilst styling it to my own needs. As the project went on, I was using less research from Bootsnipp, and using more of my own code as my understanding of Bootstrap became clearer. 
     
-How I Tested My Project:
+TESTING THE PROJECT:
 I tested out my project by using the Google Chrome developer tools - with this, I was able to see how my website responded on different screen sizes, and as a result of this, I was able
 to fix several issues I was having with specific devices. I was also able to edit my CSS within the developer tools to see a live preview of my website before amending the CSS in style.css.
 From the design brief provided, I researched The Monkees and found that my target audience would be in the age group of 50+, however, I did not exclude other age groups in the planning process.
 To test the website fairly, I had three users of different age groups navigate through all of the web pages - as a results of this, a few bugs were found and fixed, including the images throughout
 the web page not being responsive and the .box size also not being responsive.
+
+USER STORIES:
+User 1 (age 26) stated that the website is very simple and easy to use, with no feelings of confusion of misunderstanding when navigating the site and using the features available. This user liked the Spotify widget in the footer and also the social media links that were available. One suggestion was that the website should have more vibrant colours, however, with the chosen background image, this was not entirely necessary.
+
+User 2 (age 58) stated that the website text was easy to read, and enjoyed the variety of images available. This user enjoyed the soundtracks and music video on the website, and also the newsletter subscription form that appears on multiple pages.
+
+User 3 (age 78) stated that the website catered to all of their needs when it came to being able to listen to the soundtracks, watch a music video and read the mini biographies. This user was also interested in the 'News' page which contained information on upcoming concert dates.
+
+Overall, all three users enjoyed the website's features in different ways, and therefore I believe this website fulfils the needs of all age groups wherever necessary. 
     
 Additional comments:
 Throughout this project I have overcome various challenges, including trying to understand the Bootstrap grid system and how media queries work. Although I have not yet started the Javascript Fundamentals module, I have included Javascript within the <head> of my project to allow the dropdown menu to work on mobile devices. 
