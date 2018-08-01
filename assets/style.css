@@ -431,8 +431,11 @@ footer {
     .soundtrack-box {
         max-height:900px;
     }
+    
+    }
   
-    @media (min-width:768px) and (max-width:1200px) {
+    @media (min-width : 768px) and (max-width : 1200px) {
+        
     .box {
         min-height:420px;
         }
@@ -457,17 +460,17 @@ footer {
         max-height:530px;
     }
     
-   }
+    }
     
     /*--Pixel 2 XL--*/
-    @media (min-width:411px) and (max-width:823px) {
+    @media (min-width : 411px) and (max-width : 823px) {
         .event-list {
-            font-size:16px;
+        font-size:16px;
         }
     }    
         
    /*--iPad--*/
-    @media (min-width:768px) and (max-width:1024px) {
+    @media (min-width : 768px) and (max-width : 1024px) {
         .index-img {
         max-width:150px;
         height:auto;
@@ -475,7 +478,7 @@ footer {
     }
     
     /*--iPad Pro--*/
-    @media (min-width:1024px) and (max-width:1366px) {
+    @media (min-width : 1024px) and (max-width : 1366px) {
     .index-img {
         max-width:180px;
         height:auto;
