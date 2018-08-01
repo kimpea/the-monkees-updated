@@ -74,5 +74,8 @@ User 3 (age 78) stated that the website catered to all of their needs when it ca
 
 Overall, all three users enjoyed the website's features in different ways, and therefore I believe this website fulfils the needs of all age groups wherever necessary. 
     
+DEPLOYMENT:
+This website was deployed on 31/07/18. I would like to mention that before this website was deployed, the project was on a different repository (project-one), therefore any fixes/bugs before deployment will have been recorded on that repository (due to difficulties I was having with GitHub pages that are now fixed). However, I did not take action on the majority of bugs until AFTER deployment - this means that the commits for this project are for most of the bugs that I encountered throughout the development stage. 
+
 Additional comments:
 Throughout this project I have overcome various challenges, including trying to understand the Bootstrap grid system and how media queries work. Although I have not yet started the Javascript Fundamentals module, I have included Javascript within the <head> of my project to allow the dropdown menu to work on mobile devices. 
